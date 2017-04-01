@@ -1,0 +1,333 @@
+@import url("reset.css");
+.tl {
+  text-align: left;
+}
+.tc {
+  text-align: center;
+}
+.tr {
+  text-align: right;
+}
+.ellipse {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.full {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.wrap {
+  display: -webkit-box;
+  display: -moz-box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+}
+.wrap .header {
+  display: -webkit-box;
+  display: -moz-box;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  width: 100%;
+  height: 4.4rem;
+  background: #e23f42;
+  padding: 0 16px;
+}
+.wrap .header a {
+  display: block;
+  width: 2.8rem;
+  height: 2.9rem;
+  background: url(../images/03_03.png);
+  background-size: cover;
+}
+.wrap .header h1 {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  text-align: center;
+}
+.wrap .header h1 img {
+  width: 4.9rem;
+  height: auto;
+}
+.wrap .header span {
+  display: block;
+  width: 2.5rem;
+  height: 2.9rem;
+  background: url(../images/03_07.png);
+  background-size: cover;
+}
+.wrap .main {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  overflow-y: auto;
+  background: #f6f6f6;
+}
+.wrap .main .nav {
+  height: 4rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+}
+.wrap .main .nav a {
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  color: #565656;
+}
+.wrap .main .nav a.nav1 {
+  font-size: 18px;
+  color: #c64351;
+}
+.wrap .main .nav a img {
+  width: 1.6rem;
+  height: auto;
+}
+.wrap .main .search-wrap {
+  width: 100%;
+  height: 4.4rem;
+  border-top: 1px #dedede solid;
+  display: -webkit-box;
+  display: -moz-box;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+}
+.wrap .main .search-wrap .search {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 36rem;
+  border-radius: 50px;
+  border: 1px #e3e3e3 solid;
+  height: 2.8rem;
+  text-align: center;
+}
+.wrap .main .search-wrap .search a {
+  padding-left: 2.4rem;
+  background: url(../images/03_17.png) no-repeat left;
+  background-size: 1.5rem 1.5rem ;
+  color: #a0a0a0;
+}
+.wrap .main .banner a {
+  display: block;
+  width: 100%;
+  height: 21.6rem;
+}
+.wrap .main .banner a img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.wrap .main .tit {
+  height: 3.3rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  padding: 0 0.9rem;
+}
+.wrap .main .tit a {
+  display: block;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  padding-left: 2.6rem;
+  background: url(../images/03_23.png) no-repeat 4px;
+  background-size: 1.5rem 1.5rem;
+  color: #343434;
+  font-size: 16px;
+}
+.wrap .main .tit ul {
+  display: -webkit-box;
+  display: -moz-box;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+}
+.wrap .main .tit ul li {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  text-indent: -9999px;
+  overflow: hidden;
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50px;
+  background: #1e1e1e;
+  margin: 0 0.25rem;
+}
+.wrap .main .tit ul li a {
+  background: none;
+}
+.wrap .main .tit ul li.active {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+.wrap .main .news {
+  width: 100%;
+}
+.wrap .main .news dl {
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  height: 11.2rem;
+  padding: 2rem 0.9rem;
+  border-bottom: 2px #e4e4e4 solid;
+}
+.wrap .main .news dl dt img {
+  width: 9.5rem;
+  height: auto;
+}
+.wrap .main .news dl dd {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  margin-left: 1rem;
+  position: relative;
+  height: 7.2rem;
+  overflow: hidden;
+}
+.wrap .main .news dl dd h2 {
+  font-size: 16px;
+  color: #0d0d0d;
+}
+.wrap .main .news dl dd p {
+  font-size: 14px;
+}
+.wrap .main .news dl dd p a {
+  color: #989898;
+}
+.wrap .main .news dl dd img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 3rem;
+  height: auto;
+}
+.wrap .main .ply {
+  height: 13.4rem;
+  width: 100%;
+  border-bottom: 1px #e4e4e4 solid;
+  padding: 0 0.8rem;
+  padding-bottom: 2rem;
+}
+.wrap .main .ply h2 {
+  font-size: 1.8rem;
+  line-height: 3.6rem;
+  font-weight: bold;
+  color: #0b0b0b;
+}
+.wrap .main .ply .plyimg {
+  width: 100%;
+  height: 8.7rem;
+  display: -webkit-box;
+  display: -moz-box;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+}
+.wrap .main .ply .plyimg a {
+  display: block;
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+.wrap .main .ply .plyimg a img {
+  width: 11.7rem;
+  height: auto;
+}
+.wrap .main .ccb {
+  height: 13.4rem;
+  width: 100%;
+  border-bottom: 1px #e4e4e4 solid;
+  padding: 0 0.8rem;
+  padding-bottom: 2rem;
+}
+.wrap .main .ccb h2 {
+  font-size: 1.8rem;
+  line-height: 3.6rem;
+  font-weight: bold;
+  color: #0b0b0b;
+}
+.wrap .main .ccb .ccbimg {
+  width: 100%;
+  height: 12rem;
+}
+.wrap .main .ccb .ccbimg img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.wrap .main .ccb p {
+  font-size: 14px;
+  color: #b8b8b8;
+  line-height: 24px;
+}
+.wrap .footer {
+  display: -webkit-box;
+  display: -moz-box;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  border-top: #e1e1e1 solid 1px ;
+  width: 100%;
+  height: 5rem;
+}
+.wrap .footer dl {
+  display: -webkit-box;
+  display: -moz-box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -webkit-box-flex: 1;
+  text-align: center;
+  -webkit-box-pack: center;
+  position: relative;
+}
+.wrap .footer dl dt img {
+  width: 2.3rem;
+  height: 2.1rem;
+}
+.wrap .footer dl dt .footerimg {
+  width: 0.6rem;
+  height: 0.6rem;
+  position: absolute;
+}
+.wrap .footer dl dd a {
+  font-size: 1.1rem;
+  color: #989898;
+}
+.wrap .footer dl .red a {
+  color: #b45b61;
+}

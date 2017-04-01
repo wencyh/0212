@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+   	<!--<style type="text/css">
+   		.flex-container {
+		  	list-style: none;		
+		  	display: flex;/*声明使用弹性盒布局*/
+		  	flex-direction: row;/*确定主轴的方向         column主轴为垂直方向(从上到下) XX-reverse即为相反方向 */
+		  	flex-wrap: wrap;/*当容器中条目的尺寸超过主轴尺寸时应采取的行为
+		  					nowrap（默认值)容器中的条目只占满容器在主轴方向上的一行，可能出现条目互相重叠或超出容器范围的现象。
+							wrap  当容器中的条目超出容器在主轴方向上的一行时，会把条目排列到下一行。下一行的位置与交叉轴的方向一致。*/ 		  
+		
+			/*flex-flow: row wrap;复合属性*/
+		}
+		
+		.flex-item {
+		  padding: 5px;
+		}
+   	</style>-->
+</head>
+<body>
+	<div class="wrap">
+		<header class="header">
+			<span><img src="images/1_14.png"/></span>
+			<h1><a href="#">公司名称</a></h1>
+			<a href="#"><img src="images/1_17.png"/></a>
+		</header>
+		<section class="main">
+			<div class="main111">
+				<a href="#"><img src="images/2_02.png"/></a>
+			</div>
+			<div class="main222">
+				<dl>
+					<dt><a href="#"><img src="images/1_24.png"/></a></dt>
+					<dd><a href="#">关于我们</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><img src="images/1_26.png"/></a></dt>
+					<dd><a href="#">关于我们</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><img src="images/1_28.png"/></a></dt>
+					<dd><a href="#">关于我们</a></dd>
+				</dl>
+			</div>
+			<div class="main222">
+				<dl>
+					<dt><a href="#"><img src="images/1_24.png"/></a></dt>
+					<dd><a href="#">关于我们</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><img src="images/1_26.png"/></a></dt>
+					<dd><a href="#">关于我们</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><img src="images/1_28.png"/></a></dt>
+					<dd><a href="#">关于我们</a></dd>
+				</dl>
+			</div>
+			<div class="main222">
+				<dl>
+					<dt><a href="#"><img src="images/1_24.png"/></a></dt>
+					<dd><a href="#">关于我们</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><img src="images/1_26.png"/></a></dt>
+					<dd><a href="#">关于我们</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><img src="images/1_28.png"/></a></dt>
+					<dd><a href="#">关于我们</a></dd>
+				</dl>
+			</div>
+			<div class="main222">
+				<dl>
+					<dt><a href="#"><img src="images/1_24.png"/></a></dt>
+					<dd><a href="#">关于我们</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><img src="images/1_26.png"/></a></dt>
+					<dd><a href="#">关于我们</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><img src="images/1_28.png"/></a></dt>
+					<dd><a href="#">关于我们</a></dd>
+				</dl>
+			</div>
+			<div class="main222">
+				<dl>
+					<dt><a href="#"><img src="images/1_24.png"/></a></dt>
+					<dd><a href="#">关于我们</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><img src="images/1_26.png"/></a></dt>
+					<dd><a href="#">关于我们</a></dd>
+				</dl>
+				<dl>
+					<dt><a href="#"><img src="images/1_28.png"/></a></dt>
+					<dd><a href="#">关于我们</a></dd>
+				</dl>
+			</div>
+		</section>
+		<footer class="footer">
+			<dl class="active">
+				<dt><img src="images/1_40.png"/></dt>
+				<dd><a href="#">首页</a></dd>
+			</dl>
+			<dl>
+				<dt><img src="images/1_43.png"/></dt>
+				<dd><a href="#">首页</a></dd>
+			</dl>
+			<dl>
+				<dt><img src="images/1_46.png"/></dt>
+				<dd><a href="#">首页</a></dd>
+			</dl>
+			<dl>
+				<dt><img src="images/1_49.png"/></dt>
+				<dd><a href="#">首页</a></dd>
+			</dl>
+			<dl>
+				<dt><img src="images/3_03.png"/></dt>
+				<dd><a href="#">首页</a></dd>
+			</dl>
+		</footer>
+		
+		
+	</div>
+	
+	
+	
+	
+</body>
+</html> 
+<script type="text/javascript" src="js/jquery-3.1.1.js">
+	
+</script>
+<script type="text/javascript">
+	$(function(){
+		$(".footer dl").click(function(){
+			$(this).addClass("active").siblings().removeClass("active");
+		});
+	})
+</script>
+<script type="text/javascript">
+    	
+   		document.addEventListener('plusready', function(){
+   			//console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+   			
+   		});
+   		
+</script>

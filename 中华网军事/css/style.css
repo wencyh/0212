@@ -1,0 +1,365 @@
+@import url("reset.css");
+.topwrap {
+  width: 100%;
+  height: 30px;
+  background: #f7f7f7;
+  border-bottom: 1px #d9d9d9 solid;
+}
+.topwrap .top {
+  width: 1000px;
+  height: 30px;
+  background: #f7f7f7;
+  margin: 0 auto;
+}
+.topwrap .top ul li {
+  line-height: 30px;
+}
+.topwrap .top li a {
+  padding: 0px 2px;
+}
+.topwrap .top ul {
+  float: left;
+}
+.topwrap .top span {
+  float: right;
+}
+.topwrap .top span a {
+  line-height: 30px;
+}
+.topwrap .top .hong {
+  background: #d03c4d;
+  color: white;
+  padding: 2px 2px;
+}
+.topwrap .top .hai {
+  color: red;
+}
+.top1 {
+  width: 1000px;
+  height: 33px;
+  background: #cccccc;
+  margin: 0 auto;
+}
+.top1 p {
+  float: left;
+  padding-left: 130px;
+}
+.top1 p a {
+  padding: 0px 10px;
+  line-height: 33px;
+}
+.top1 span {
+  float: right;
+  line-height: 33px;
+}
+.top1 .sou {
+  width: 58px;
+  height: 26px;
+  background: #b00101;
+  border: 2px #b00101 solid;
+  color: white;
+  font-weight: bold;
+}
+.top1 .chan {
+  width: 113px;
+  height: 22px;
+  border: 2px #b00101 solid;
+  padding-left: 10px;
+}
+.top1 .zutu {
+  color: red;
+  font-weight: bold;
+}
+.top1 .bu {
+  color: red;
+}
+.top2 {
+  width: 1000px;
+  height: 44px;
+  background: #ffffff;
+  margin: 0 auto;
+}
+.top2 .top2left {
+  width: 120px;
+  height: 44px;
+  background: #ffffff;
+  float: left;
+}
+.top2 .top2right {
+  width: 870px;
+  height: 36px;
+  background: #b6241f;
+  margin-top: 5px;
+  float: right;
+}
+.top2 .top2right ul li {
+  line-height: 36px;
+}
+.top2 .top2right li a {
+  padding: 0px 5px;
+  color: white;
+}
+.top2 .top2right li img {
+  line-height: 36px;
+}
+.top2 .top2right .huang {
+  color: #f4dc39;
+  font-weight: bold;
+}
+.top2 .top2right a img {
+  margin-bottom: 5px;
+}
+.top3 {
+  width: 1000px;
+  height: 130px;
+  background: #ffc0cb;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  background: url(../images/7_14.png) no-repeat;
+}
+.top4 {
+  width: 1000px;
+  height: 4px;
+  background: #ffc0cb;
+  margin: 0 auto;
+  background: url(../images/71_03.png) no-repeat;
+}
+.top5 {
+  width: 1000px;
+  height: 1340px;
+  background: #ffffff;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.top5 .top5left {
+  width: 370px;
+  height: 1340px;
+  background: #ffffff;
+  float: left;
+  margin-right: 10px;
+}
+.top5 .top5left .top5left1 {
+  width: 370px;
+  height: 292px;
+  background: #ffffff;
+}
+.top5 .top5left .top5left2 {
+  width: 370px;
+  height: 292px;
+  background: #ffffff;
+}
+.top5 .top5left .top5left2 .top5left3 {
+  width: 370px;
+  height: 36px;
+  background: #f3f3f3;
+  margin-top: 10px;
+}
+.top5 .top5left .top5left2 .top5left3 p {
+  line-height: 36px;
+  padding: 0px 10px;
+  width: 175px;
+  height: 36px;
+  background: #b31515;
+  text-align: center;
+}
+.top5 .top5left .top5left2 .top5left3 p a {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+.top5 .top5left .top5left2 .dazi {
+  font-size: 16px;
+  color: black;
+  padding-left: 10px;
+}
+.top5 .top5left .top5left2 dt {
+  float: left;
+}
+.top5 .top5left .top5left2 dl {
+  padding-top: 10px;
+  border-bottom: 1px #ccc solid;
+}
+.top5 .top5left .top5left2 dd {
+  line-height: 25px;
+  vertical-align: middle;
+}
+.top5 .top5left .top5left2 dd img {
+  padding: 0px 10px;
+}
+.top5 .top5left .top5left2 span a {
+  padding-left: 10px;
+}
+.top5 .top5left .top5left2 .ding {
+  position: absolute ;
+  left: 350px;
+  top: 720px;
+}
+.top5 .top5left .top5left2 ul li {
+  line-height: 25px;
+}
+.top5 .top5left .top5left2 li img {
+  padding: 0px 5px;
+}
+.top5 .top5left .top5left4 {
+  width: 370px;
+  height: 282px;
+  background: #ffffff;
+}
+.top5 .top5left .top5left4 a img {
+  padding: 0px 20px;
+}
+.top5 .top5left .top5left3 {
+  width: 370px;
+  height: 36px;
+  background: #f3f3f3;
+  margin-top: 10px;
+}
+.top5 .top5left .top5left3 p {
+  line-height: 36px;
+  padding: 0px 10px;
+  width: 175px;
+  height: 36px;
+  background: #b31515;
+  text-align: center;
+}
+.top5 .top5left .top5left3 p a {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+.top5 .top5left ul li {
+  padding-top: 10px;
+  line-height: 30px;
+}
+.top5 .top5left li img {
+  padding: 0px 5px;
+}
+.top5 .top5center {
+  width: 385px;
+  height: 1340px;
+  background: #ffffff;
+  float: left;
+}
+.top5 .top5center .top5center1 {
+  border-bottom: 1px #ccc dashed;
+  width: 385px;
+  height: 72px;
+  background: #ffffff;
+}
+.top5 .top5center .top5center1 .zhong {
+  font-size: 20px;
+  padding-left: 12px;
+}
+.top5 .top5center .top5center1 .xiao {
+  font-size: 12px;
+  padding-left: 30px;
+}
+.top5 .top5center .top5center2 {
+  width: 385px;
+  height: 205px;
+  background: #ffffff;
+  border-bottom: 1px #ccc dashed;
+}
+.top5 .top5center .top5center2 .da {
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  line-height: 30px;
+}
+.top5 .top5center .top5center2 ul li {
+  line-height: 28px;
+}
+.top5 .top5center .top5center2 li img {
+  padding-bottom: 2px;
+  padding: 0px 5px;
+}
+.top5 .top5center .top5center3 {
+  width: 370px;
+  height: 36px;
+  background: #ffffff;
+  border: 1px #ccc solid;
+  margin: 0 auto;
+}
+.top5 .top5center .top5center3 p {
+  float: left;
+  padding-left: 10px;
+  line-height: 36px;
+  width: 110px;
+  height: 36px;
+  background: #b31515;
+  text-align: center;
+}
+.top5 .top5center .top5center3 p a {
+  color: white;
+  font-weight: bold;
+}
+.top5 .top5center .top5center3 span {
+  float: right;
+  line-height: 36px;
+  padding-right: 5px;
+  width: 240px;
+  height: 36px;
+  background: #f3f3f3;
+  text-align: center;
+}
+.top5 .top5center .top5center3 span a {
+  color: red;
+  font-weight: bold;
+}
+.top5 .top5center ul li {
+  line-height: 35px;
+}
+.top5 .top5center li a {
+  padding: 0px 10px;
+}
+.top5 .top5center .da {
+  font-size: 14px;
+  font-weight: bold;
+}
+.top5 .top5center .da a {
+  color: black;
+}
+.top5 .top5center li img {
+  padding: 0 5px;
+}
+.top5 .top5right {
+  width: 216px;
+  height: 1338px;
+  background: #ffffff;
+  float: right;
+}
+.top5 .top5right .top5right1 {
+  border: 1px #d8d8d8 solid;
+  width: 216px;
+  height: 260px;
+  background: #ffffff;
+}
+.top5 .top5right .top5right1 a img {
+  padding: 5px 10px;
+}
+.top5 .top5right .top5right2 {
+  width: 216px;
+  height: 1065px;
+  background: #ffffff;
+  border: 1px #d8d8d8 solid;
+  margin-top: 5px;
+}
+.top5 .top5right .top5right2 dl {
+  padding: 10px 10px;
+  border: 1px #ccc solid;
+}
+.top5 .top5right .top5right2 dd {
+  text-align: center;
+}
+.top6 {
+  width: 1000px;
+  height: 90px;
+  background: #ffffff;
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 1px #ccc solid;
+}
+.top6 dl {
+  float: left;
+  padding: 3px 7px ;
+}
